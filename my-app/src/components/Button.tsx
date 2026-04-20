@@ -29,7 +29,7 @@ export const Button = forwardRef<HTMLButtonElement, ButtonProps>(
       lg: "text-lg",
     };
 
-    // 🔥 ADD THIS
+    
     const disabledClass =
       isLoading || props.disabled ? "opacity-50 cursor-not-allowed" : "";
 
