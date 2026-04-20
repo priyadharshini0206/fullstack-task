@@ -34,7 +34,7 @@ export default function App() {
       const res = await fetch("http://localhost:5000/profile", {
         method: "GET",
         headers: {
-          Authorization: "Bearer test123", // ✅ FIXED
+          Authorization: "Bearer test123", 
         },
       });
 
